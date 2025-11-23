@@ -14,43 +14,43 @@ Progress:
 
 TODO:
   1. Implementation: 
-   - [] Display the location information when clicked: name, province, hex rgb value, owner, core, is it coastal, type (settlement / colony / uncolonized).
+   - [ ] Display the location information when clicked: name, province, hex rgb value, owner, core, is it coastal, type (settlement / colony / uncolonized).
      Later {
-       [] &1 development <br/>
-       [] &2 topography, vegetation, climate, religion, culture, raw_material, natural harbor suitability <br/>
-       [] &3 international orgnaization owner /* hre owns lands <br/>
-       [] $4 timed modifier <br/>/* it's undercooked
-       [] %5 disease resistance type, disease resistance <br/>
-       [] %6 cardinal seat <br/>
-       [] %7 <pops.type, pops.size, pops.culture, pops.religion> <br/>
-       [] &8 art location, art origin /* I'm not doing it <br/>
-       [] &9 is it a market center <br/>
-       [] &10 institution <br/>
-       [] &11 (colony related stuff) <br/>
-       [] &12 rank, town setup <br/>
+       [ ] &1 development <br/>
+       [ ] &2 topography, vegetation, climate, religion, culture, raw_material, natural harbor suitability <br/>
+       [ ] &3 international orgnaization owner /* hre owns lands <br/>
+       [ ] $4 timed modifier /* it's undercooked  <br/>
+       [ ] %5 disease resistance type, disease resistance <br/>
+       [ ] %6 cardinal seat <br/>
+       [ ] %7 <pops.type, pops.size, pops.culture, pops.religion> <br/>
+       [ ] &8 art location, art origin /* I'm not doing it <br/>
+       [ ] &9 is it a market center <br/>
+       [ ] &10 institution <br/>
+       [ ] &11 (colony related stuff) <br/>
+       [ ] &12 rank, town setup <br/>
      }
      
-   - [] Different map modes: location (default), province, area, region, countries, empty.
+   - [ ] Different map modes: location (default), province, area, region, countries, empty.
      Later {
        &13 roads (Later detailed)
      }
      
    - Later {
-       [] Allow mass chaning, i.e. mass changing locations owner.
-       [] Blocks interact with impassable tiles & sea tiles      
+       [ ] Allow mass chaning, i.e. mass changing locations owner.
+       [ ] Blocks interact with impassable tiles & sea tiles      
      }
      
    - Later { Later {     
-         [] Showing / changing stats of a country / intl' organization 
+         [ ] Showing / changing stats of a country / intl' organization 
     }}
        
-  2. [] Figure out a better way to render, draw  and flood color the map:
+  2. [ ] Figure out a better way to render, draw  and flood color the map:
      Either use webGL or convert the locations.png into .svg (inspired by https://www.mapchart.net/eu-iv.html)
        
-  4. [] Figure out how to return a zip file.
+  4. [ ] Figure out how to return a zip file.
      
   5. Maybe {
-    [] Build my own reference file?
+    [ ] Build my own reference file?
   }
 
 
@@ -78,7 +78,7 @@ Files Referencing:  <br/> /* so I don't need to find where they are everytime
           %5 19_diseases.txt <br/>
           %6 13_religion.txt <br/>
           %7 06_pops.txt <br/>
-          &8 11_art.txt <br/> /* don't
+          &8 11_art.txt /* don't  <br/>
           &9 03_markets.txt <br/>
           &10 08_institutions.txt <br/>
           &11 23_colonies.txt <br/>
