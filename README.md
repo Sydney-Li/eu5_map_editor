@@ -12,7 +12,6 @@ Progress:
 
 
 TODO:
-  1. Implementation: 
    - [ ] Display the location information when clicked: name, province, hex rgb value, owner, core, is it coastal, type (settlement / colony / uncolonized). <br/>
      Later { <br/>
        - [ ] &1 development <br/>
@@ -44,13 +43,14 @@ TODO:
        - [ ] Showing / changing stats of a country / international organization  <br/>   
      }   
        
-  2. [ ] Figure out a better way to render, draw  and flood color the map: <br/>
+   - [ ] Figure out a better way to render, draw  and flood color the map: <br/>
      Either use webGL or convert the locations.png into .svg (inspired by https://www.mapchart.net/eu-iv.html) <br/>
        
-  3. [ ] Figure out how to return a zip file. <br/>
+   - [ ] Figure out how to return a zip file. <br/>
      
-  4. Maybe { <br/>
+  - Maybe { <br/>
     - [ ] Build my own reference file? <br/>
+    - [ ] Format README.MD better :(
   }
 
 
