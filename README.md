@@ -19,10 +19,10 @@ TODO:
        - [ ] &1 development <br/>
        - [ ] &2 topography, vegetation, climate, religion, culture, raw_material, natural harbor suitability <br/>
        - [ ] &3 international orgnaization owner /* hre owns lands <br/>
-       - [ ] $4 timed modifier /* it's undercooked  <br/>
-       - [ ] %5 disease resistance type, disease resistance <br/>
-       - [ ] %6 cardinal seat <br/>
-       - [ ] %7 <pops.type, pops.size, pops.culture, pops.religion> <br/>
+       - [ ] &4 timed modifier /* it's undercooked  <br/>
+       - [ ] &5 disease resistance type, disease resistance <br/>
+       - [ ] &6 cardinal seat <br/>
+       - [ ] &7 <pops.type, pops.size, pops.culture, pops.religion> <br/>
        - [ ] &8 art location, art origin /* I'm not doing it <br/>
        - [ ] &9 is it a market center <br/>
        - [ ] &10 institution <br/>
@@ -74,10 +74,10 @@ Files Referencing:  /* so I don't need to find where they are everytime  <br/>
         start/ { <br/>
           &1 14_development.txt <br/>
           &3 15_international_organizations.txt <br/>
-          $4 21_locations.txt <br/>
-          %5 19_diseases.txt <br/>
-          %6 13_religion.txt <br/>
-          %7 06_pops.txt <br/>
+          &4 21_locations.txt <br/>
+          &5 19_diseases.txt <br/>
+          &6 13_religion.txt <br/>
+          &7 06_pops.txt <br/>
           &8 11_art.txt /* don't  <br/>
           &9 03_markets.txt <br/>
           &10 08_institutions.txt <br/>
