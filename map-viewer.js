@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let imageWidth = 0;
     let imageHeight = 0;
 
-    infoBox.textContent = 'Loading...'; // default prompt
+    cout.textContent = 'Loading...'; // default prompt
 
     const img = new Image();
     img.onload = () => {
@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
 		
-		infoBox.textContent = 'Map loaded.'; // after loading
+		cout.textContent = 'Map loaded.'; // after loading
 	};
 	
     img.onerror = () => {
@@ -54,3 +54,4 @@ document.addEventListener('DOMContentLoaded', () => {
 	
         img.src = 'locations.png';
 });
+
