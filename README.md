@@ -8,8 +8,7 @@ Project Goals:
  - Allow changing a location's properties (owner, development, etc.).
 
 Progress:
-  A simple textbox gives prompts. A web page that shows the location.png, allows zooming, panning and clickiing. Returns the xy coordinates and the rgb(a) value <br/>
-  of the clicked pixel. (Why?: ../named_locations/00_default.txt contains the reference hex rgb value so I guess that's how the game renders the map?)
+  A simple textbox gives prompts. A web page that shows the location.png, allows zooming, panning and clickiing. Returns the xy coordinates and the rgb(a) value of the clicked pixel. (Why?: ../named_locations/00_default.txt contains the reference hex rgb value so I guess that's how the game renders the map?) <br/>
 
 
 TODO:
