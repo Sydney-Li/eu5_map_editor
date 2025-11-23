@@ -28,21 +28,21 @@ TODO:
        - [ ] &10 institution <br/>
        - [ ] &11 (colony related stuff) <br/>
        - [ ] &12 rank, town setup <br/>
-     } <br/>
+     }
      
    - [ ] Different map modes: location (default), province, area, region, countries, empty.  <br/>
      Later {  <br/>
        - [ ] &13 roads /* more detailed  <br/>
-     }  <br/>
+     } 
      
    - Later {  <br/>
        - [ ] Allow mass chaning, i.e. mass changing locations owner. <br/>
        - [ ] Blocks interact with impassable tiles & sea tiles.  <br/>      
      }
      
-    - Later { Later {  <br/>     
-      - [ ]Showing / changing stats of a country / international organization  <br/> 
-     }} <br/>
+   - Later Later {  <br/>
+       - [ ] Showing / changing stats of a country / international organization  <br/>   
+     }   
        
   2. [ ] Figure out a better way to render, draw  and flood color the map: <br/>
      Either use webGL or convert the locations.png into .svg (inspired by https://www.mapchart.net/eu-iv.html) <br/>
@@ -51,7 +51,7 @@ TODO:
      
   4. Maybe { <br/>
     - [ ] Build my own reference file? <br/>
-  } <br/>
+  }
 
 
 Files Using: <br/>
@@ -63,7 +63,7 @@ Files Using: <br/>
         } <br/>
         named_locations/ { <br/>
           00_default.txt <br/>
-        } <br/>
+        } 
         
 
 Files Referencing:  /* so I don't need to find where they are everytime  <br/>
@@ -84,6 +84,6 @@ Files Referencing:  /* so I don't need to find where they are everytime  <br/>
           &11 23_colonies.txt <br/>
           &12 07_cities_and_buildings.txt <br/>
           &13 09_roads.txt <br/>
-        } <br/>
+        } 
  <br/> <br/>
 Notes: It's my first time actually doing fronted coding, modding, or using github, so please don't mind if this project is super ugly :(
