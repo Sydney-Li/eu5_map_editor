@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Map Editor</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+    
+    <style>
+        html {
+            height: 100%;
+        }
+        body {
+            height: 100%;
+            margin: 0;
+            overflow: hidden;
+        }
+
+        main {
+            height: 100%;
+        }
+        
+        #map {
+            height: 120%;
+            width: 120%;
+            background-color: #333333; 
+        }
+
+        #cout {
+            position: absolute;
+            bottom: 10px;
+            left: 10px;
+            z-index: 1000; 
+            background: rgba(0, 0, 0, 0.6);
+            color: white;
+            font-size: 0.875rem;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div id="map"></div>
+    </main>
+    <div id="cout"></div>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="map-viewer.js" defer></script>
+</body>
+</html>
