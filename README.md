@@ -1,4 +1,4 @@
-# eu5_map_editor
+# EU5 Map Editor
 This is a visual EU5 map editor made by Mutsuk111. It will return a zip file containg the updated .txt files, which the user then can relatively easily to mod their game. 
 It is currently a demo. 
 
