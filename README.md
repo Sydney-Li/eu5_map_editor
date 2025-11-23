@@ -1,5 +1,5 @@
 # EU5 Map Editor
-This is a visual EU5 map editor made by Mutsuk111. It will return a zip file containg the updated .txt files, which the user then can relatively easily to mod their game. 
+This is a visual EU5 map editor made by Mutsuk111. It will return a zip file containg the updated .txt files, which the user then can relatively easily to mod their game. <br/>
 It is currently a demo. 
 
 Project Goals:
@@ -8,7 +8,7 @@ Project Goals:
  - Allow changing a location's properties (owner, development, etc.).
 
 Progress:
-  A simple textbox gives prompts. A web page that shows the location.png, allows zooming, panning and clickiing. Returns the xy coordinates and the rgb(a) value
+  A simple textbox gives prompts. A web page that shows the location.png, allows zooming, panning and clickiing. Returns the xy coordinates and the rgb(a) value <br/>
   of the clicked pixel. (Why?: ../named_locations/00_default.txt contains the reference hex rgb value so I guess that's how the game renders the map?)
 
 
@@ -37,7 +37,8 @@ TODO:
      
    - Later {  <br/>
        - [ ] Allow mass chaning, i.e. mass changing locations owner. <br/>
-       - [ ] Blocks interact with impassable tiles & sea tiles.  <br/>      
+       - [ ] Blocks interact with impassable tiles & sea tiles.  <br/>
+       - [ ] Add visual Feedback, i.e. highlights the selected location, show basic location info on hover. <br/>
      }
      
    - Later Later {  <br/>
