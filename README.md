@@ -15,43 +15,43 @@ Progress:
 TODO:
   1. Implementation: 
    - [ ] Display the location information when clicked: name, province, hex rgb value, owner, core, is it coastal, type (settlement / colony / uncolonized).
-     Later {
-       [ ] &1 development <br/>
-       [ ] &2 topography, vegetation, climate, religion, culture, raw_material, natural harbor suitability <br/>
-       [ ] &3 international orgnaization owner /* hre owns lands <br/>
-       [ ] $4 timed modifier /* it's undercooked  <br/>
-       [ ] %5 disease resistance type, disease resistance <br/>
-       [ ] %6 cardinal seat <br/>
-       [ ] %7 <pops.type, pops.size, pops.culture, pops.religion> <br/>
-       [ ] &8 art location, art origin /* I'm not doing it <br/>
-       [ ] &9 is it a market center <br/>
-       [ ] &10 institution <br/>
-       [ ] &11 (colony related stuff) <br/>
-       [ ] &12 rank, town setup <br/>
+     Later { <br/>
+       - [ ] &1 development <br/>
+       - [ ] &2 topography, vegetation, climate, religion, culture, raw_material, natural harbor suitability <br/>
+       - [ ] &3 international orgnaization owner /* hre owns lands <br/>
+       - [ ] $4 timed modifier /* it's undercooked  <br/>
+       - [ ] %5 disease resistance type, disease resistance <br/>
+       - [ ] %6 cardinal seat <br/>
+       - [ ] %7 <pops.type, pops.size, pops.culture, pops.religion> <br/>
+       - [ ] &8 art location, art origin /* I'm not doing it <br/>
+       - [ ] &9 is it a market center <br/>
+       - [ ] &10 institution <br/>
+       - [ ] &11 (colony related stuff) <br/>
+       - [ ] &12 rank, town setup <br/>
+     } <br/>
+     
+   - [ ] Different map modes: location (default), province, area, region, countries, empty.  <br/>
+     Later {  <br/>
+       - [ ] &13 roads /* more detailed  <br/>
+     }  <br/>
+     
+   - Later {  <br/>
+       - [ ] Allow mass chaning, i.e. mass changing locations owner. <br/>
+       - [ ] Blocks interact with impassable tiles & sea tiles.  <br/>      
      }
      
-   - [ ] Different map modes: location (default), province, area, region, countries, empty.
-     Later {
-       &13 roads (Later detailed)
-     }
-     
-   - Later {
-       [ ] Allow mass chaning, i.e. mass changing locations owner.
-       [ ] Blocks interact with impassable tiles & sea tiles      
-     }
-     
-   - Later { Later {     
-         [ ] Showing / changing stats of a country / intl' organization 
-    }}
+    - Later { Later {  <br/>     
+      - [ ]Showing / changing stats of a country / international organization  <br/> 
+     }} <br/>
        
   2. [ ] Figure out a better way to render, draw  and flood color the map:
      Either use webGL or convert the locations.png into .svg (inspired by https://www.mapchart.net/eu-iv.html)
        
-  4. [ ] Figure out how to return a zip file.
+  3. [ ] Figure out how to return a zip file.
      
-  5. Maybe {
-    [ ] Build my own reference file?
-  }
+  4. Maybe { <br/>
+    - [ ] Build my own reference file? <br/>
+  } <br/>
 
 
 Files Using: <br/>
@@ -66,7 +66,7 @@ Files Using: <br/>
         } <br/>
         
 
-Files Referencing:  <br/> /* so I don't need to find where they are everytime
+Files Referencing:  /* so I don't need to find where they are everytime  <br/>
   ../in_game/ <br/>
       map_data/ {&2 location_template.txt} <br/>
   ../main_menu/ <br/>
